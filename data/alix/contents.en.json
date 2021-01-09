@@ -1,0 +1,104 @@
+{
+  "info": {
+    "firstName": "Alix",
+    "lastName": "Quentin",
+    "title": "Software Developer",
+    "address": "77-79 rue Albert Dhalenne",
+    "postcode": "93400",
+    "city": "Saint-Ouen",
+    "email": "alix@hey.com",
+    "phone": "+33 6 85 19 61 74",
+    "github": "alixquentin"
+  },
+  "bio": "<p><b>Self-taught, passionate</b> since childhood about technology and the web particularly, I undertook a career change for web development in 2018. I have since been hired as a fullstack developer in mid-2019.</p><p>Today, I'd like to find a company that <b>matches my values</b> and to offer my knowledge and experience in the service of a <b>product that feels truly useful</b>.</p>",
+  "i18n": {
+    "current": "Current",
+    "diplomas": "Diplomas",
+    "skills": "Skills",
+    "experience": "Experience",
+    "languages": "Languages",
+    "summary": "Summary"
+  },
+  "experiences": [
+    {
+      "title": "Fullstack Developer",
+      "company": "deliver.ee",
+      "startDate": "Jul 2019",
+      "endDate": null,
+      "achievements": [
+        "Bootstrapping and development, with the team, of a new project around planning and billing work shifts, currently in production, with Phoenix (Elixir), GraphQL and React.",
+        "Bug fixes and feature development on a legacy project for managing deliveries with Rails, Grape (REST API), Ember and Vue.",
+        "Take over and maintenance of an existing mobile application for delivery men (and women) with React Native.",
+        "Rspec-Rails test suite optimisation to speed up continuous integration pipelines: 40min &rArr; 5min.",
+        "Complete makeover of a product for editing complex delivery pricing grids with Vue.",
+        "Designing, modelling, and writing technical specs, in collaboration with Product Managers, for the evolution of a large legacy project."
+      ]
+    },
+    {
+      "title": "Office Receptionist",
+      "company": "Charlestown, Par-s-on Assistance, A-SC",
+      "startDate": "Jun 2013",
+      "endDate": "Nov 2017",
+      "achievements": []
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "details": "Excellent level in JavaScript/Node, solid base in TypeScript. Good knowledge of Elixir and Ruby. Knowledge of Go, Scala, Python. Notions of PHP."
+    },
+    {
+      "category": "Back",
+      "details": "Mastery of REST APIs and GraphQL, MVC frameworks like Rails and Phoenix, and lightweight Node.js frameworks like Koa and Express."
+    },
+    {
+      "category": "Front",
+      "details": "Mastery of HTML5, CSS3, as well as the React & Vue frameworks and their ecosystems (Redux, Saga, Vuex, Apollo)."
+    },
+    {
+      "category": "Databases",
+      "details": "Good knowledge of SQL and PostgreSQL. Explorations with MongoDB."
+    },
+    {
+      "category": "DevOps",
+      "details": "Knowledge of Docker, Kubernetes, Nginx. Able to automate application deployments with CI-CD tools."
+    },
+    {
+      "category": "Design",
+      "details": "Mastery of Photoshop. At ease with XD/Sketch/Figma. Basic Illustrator/InDesign."
+    },
+    {
+      "category": "Web Marketing",
+      "details": "Knowledge of SEO basics. Google Digital Garage Certificate."
+    }
+  ],
+  "diplomas": [
+    {
+      "title": "Bachelor of Sociology & Anthropology",
+      "school": "Paris VII Diderot",
+      "year": "2015"
+    },
+    {
+      "title": "Certificate of Advanced English (CAE)",
+      "school": "Cambridge",
+      "year": "2012"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Proficient",
+      "align": "left"
+    },
+    {
+      "name": "French",
+      "level": "Native",
+      "align": "center"
+    },
+    {
+      "name": "Spanish",
+      "level": "Basic",
+      "align": "right"
+    }
+  ]
+}

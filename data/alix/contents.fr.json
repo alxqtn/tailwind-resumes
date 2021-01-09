@@ -1,0 +1,104 @@
+{
+  "info": {
+    "firstName": "Alix",
+    "lastName": "Quentin",
+    "title": "Software Developer",
+    "address": "77-79 rue Albert Dhalenne",
+    "postcode": "93400",
+    "city": "Saint-Ouen",
+    "email": "alix@hey.com",
+    "phone": "+33 6 85 19 61 74",
+    "github": "alixquentin"
+  },
+  "bio": "<p><b>Autodidacte passionnée</b> depuis l’adolescence par la technologie et en particulier le web, j'ai entrepris en 2018 une <b>reconversion professionnelle</b> dans le développement web. J'ai depuis été embauchée en tant que développeuse fullstack en mi-2019.</p><p>Aujourd’hui, j’aimerais trouver une entreprise qui <b>corresponde à mes valeurs</b> et dans laquelle je puisse mettre à profit à la fois mes connaissances et mon expérience au service d'un <b>produit qui soit socialement utile</b>.</p>",
+  "i18n": {
+    "current": "En Poste",
+    "diplomas": "Diplômes",
+    "skills": "Compétences",
+    "experience": "Expériences",
+    "languages": "Langues",
+    "summary": "Profil"
+  },
+  "experiences": [
+    {
+      "title": "Développeuse Web Fullstack",
+      "company": "deliver.ee",
+      "startDate": "Jul 2019",
+      "endDate": null,
+      "achievements": [
+        "Création et développement en équipe, jusqu'à mise en production, d'un nouveau projet de gestion de plannings. Stack Elixir, Phoenix, GraphQL, React, Apollo.",
+        "Résolution de bugs et développement de features sur un projet de gestion de livraisons. Stack Rails, Grape (API REST), Ember et Vue.",
+        "Reprise d'une application mobile pour les livreurs. Stack React Native, Redux.",
+        "Refonte complète d'un projet front de gestion de grilles tarifaires. Stack Vue, Vuex.",
+        "Optimisation d'une suite de tests legacy Rspec-Rails : 40min &rArr; 5min.",
+        "Conception, modélisation, puis rédaction de specs techniques, en collaboration avec le produit, pour l'évolution d'un projet legacy."
+      ]
+    },
+    {
+      "title": "Hôtesse d'Accueil en Entreprise",
+      "company": "Charlestown, Par-s-on Assistance, A-SC",
+      "startDate": "Jun 2013",
+      "endDate": "Nov 2017",
+      "achievements": []
+    }
+  ],
+  "skills": [
+    {
+      "category": "Langages",
+      "details": "Excellent niveau en JavaScript/Node, bases solides en TypeScript. Maîtrise d'Elixir et Ruby. Connaissance de Go, Scala, Python. Notions de PHP."
+    },
+    {
+      "category": "Back",
+      "details": "Maîtrise des API REST et GraphQL, des frameworks MVC Rails et Phoenix, et de frameworks Node comme Koa et Express."
+    },
+    {
+      "category": "Front",
+      "details": "Maîtrise de HTML5, CSS3, ainsi que des frameworks React, Vue et de leurs écosystèmes (Redux, Saga, Vuex, Apollo)."
+    },
+    {
+      "category": "BDD",
+      "details": "Bases solides en SQL et PostgreSQL. Explorations avec MongoDB."
+    },
+    {
+      "category": "DevOps",
+      "details": "Connaissance de Docker, Kubernetes, Nginx. Capable d'automatiser le déploiement d'applications."
+    },
+    {
+      "category": "Design",
+      "details": "Maîtrise de Photoshop. A l'aise avec XD/Sketch/Figma. Utilisation basique d’Illustrator, InDesign."
+    },
+    {
+      "category": "Web Marketing",
+      "details": "Référencement, réseaux sociaux. Certificat Google Digital Garage."
+    }
+  ],
+  "diplomas": [
+    {
+      "title": "Licence de Sociologie et Anthropologie",
+      "school": "Paris VII Diderot",
+      "year": "2015"
+    },
+    {
+      "title": "Certificate of Advanced English (CAE)",
+      "school": "Cambridge",
+      "year": "2012"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Français",
+      "level": "Maternel",
+      "align": "left"
+    },
+    {
+      "name": "Anglais",
+      "level": "Bilingue",
+      "align": "center"
+    },
+    {
+      "name": "Espagnol",
+      "level": "Moyen",
+      "align": "right"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "web-to-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cli": "nodemon -e js,pug,json,css index.js"
+  },
+  "dependencies": {
+    "pug": "^2.0.4",
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
