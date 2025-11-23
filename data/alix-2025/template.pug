@@ -1,17 +1,19 @@
-html(style="font-size: 12px;")
+html(style="font-size: 10px;")
   head
     link(href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css", rel="stylesheet")
     style
       include styles.css
+      if assets.splashes
+        | #background { background-image: url("#{assets.splashes}"); }
   body.leading-tight.font-sans
-    #background.w-full.bg-black.h-screen.bg-cover.px-10.py-20
+    #background.w-full.bg-black.h-screen.bg-cover.px-10.py-12
       .w-full.h-full.bg-white.px-16.py-10.border-black
         .flex.flex-col.items-center
           h1.font-bold.text-5xl.uppercase.mb-1 #{info.firstName} #{info.lastName}
-          h2.font-mono.text-2xl.font-light.mb-0 – #{info.title} –
-          .mb-3.font-sans.tracking-tight _________
-          p.text-sm #{info.phone} – #{info.email}
-        .grid.grid-cols-8.gap-x-2.gap-y-5.mt-12
+          h2.font-mono.text-2xl.font-light.mb-0.mt-0 – #{info.title} –
+          .mb-2.font-sans.tracking-tight _________
+          p git:#{info.github} – #{info.email}
+        .grid.grid-cols-8.gap-x-2.gap-y-5.mt-6
           h3.col-span-2.font-mono.font-light.text-2xl= i18n.summary
           .col-span-6.text-justify !{bio}
           h3.col-span-2.font-mono.font-light.text-2xl= i18n.experience

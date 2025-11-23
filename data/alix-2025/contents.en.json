@@ -1,0 +1,115 @@
+{
+  "info": {
+    "firstName": "Alix",
+    "lastName": "Quentin",
+    "title": "Senior Software Engineer",
+    "email": "alixquentin@pm.me",
+    "github": "alxqtn"
+  },
+  "bio": "<p>Self-taught, passionate about technology since childhood, I now have <b>over six years of experience</b> in software engineering, with a specialization in <b>TypeScript, Node.js and React</b>.</p><p>I am currently looking to leverage my expertise through <b>freelance missions</b> with organizations working for <b>social or environmental causes</b> that share my values.</p>",
+  "i18n": {
+    "current": "Current",
+    "diplomas": "Diplomas",
+    "skills": "Skills",
+    "experience": "Experience",
+    "languages": "Languages",
+    "summary": "Summary"
+  },
+  "experiences": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Lalilo",
+      "startDate": "Mar 2021",
+      "endDate": "Oct 2025",
+      "achievements": [
+        "Contributed over 4 years to the development of an educational platform, helping build and improve adaptive learning algorithms, flexible exercise templates, and content authoring tools",
+        "Worked with TypeScript, React, and Express to implement full-stack features while using PostgreSQL for efficient data management",
+        "Assisted with maintaining cloud infrastructure by leveraging Kubernetes, Terraform, and Datadog monitoring tools",
+        "Led software engineering recruitment efforts, starting with pair programming interviews before taking charge of candidate sourcing, role definition, and overall hiring management",
+        "Migrated and maintained the API layer connecting our products to in-house speech recognition ML models using Python, Flask, and PostgreSQL",
+        "Participated in the AI taskforce by evaluating potential applications of generative AI and text-to-speech technologies through testing and research",
+        "Served as technical lead for a major tender proposal, addressing architecture requirements and technical specifications"
+      ]
+    },
+    {
+      "title": "Fullstack Developer",
+      "company": "deliver.ee",
+      "startDate": "Jul 2019",
+      "endDate": "Feb 2021",
+      "achievements": [
+        "Bootstrapping and development, with the team, of a new project around planning and billing work shifts, currently in production, with Phoenix (Elixir), GraphQL and React.",
+        "Bug fixes and feature development on a legacy project for managing deliveries with Rails, Grape (REST API), Ember and Vue.",
+        "Take over and maintenance of an existing mobile application for delivery men (and women) with React Native.",
+        "Rspec-Rails test suite optimisation to speed up continuous integration pipelines: 40min &rArr; 5min.",
+        "Complete makeover of a product for editing complex delivery pricing grids with Vue.",
+        "Designing, modelling, and writing technical specs, in collaboration with Product Managers, for the evolution of a large legacy project."
+      ]
+    },
+    {
+      "title": "Office Receptionist",
+      "company": "Charlestown, Par-s-on Assistance, A-SC",
+      "startDate": "Jun 2013",
+      "endDate": "Nov 2017",
+      "achievements": []
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "details": "Expert in JavaScript/TypeScript. Professional experience with Ruby, Elixir, Python. Solid base in Go, Scala, Gleam, Rust, PHP."
+    },
+    {
+      "category": "Backend",
+      "details": "Expert in Node (Express, Koa). Explorations with Bun/Deno. Mastery of MVC frameworks Rails and Phoenix, and Flask/FastAPI."
+    },
+    {
+      "category": "Front",
+      "details": "Mastery of HTML/CSS. Expert in React, explorations with Next, Remix, Astro, React Native. Mastery of Vue, explorations with Solid, HTMX, Alpine."
+    },
+    {
+      "category": "Databases",
+      "details": "Mastery of SQL databases, particularly PostgreSQL. At ease with Redis, MongoDB."
+    },
+    {
+      "category": "DevOps",
+      "details": "Mastery of Docker, Kubernetes, and CI/CD tools like Github Actions or Circle CI. Experience with declarative infrastructure using Terraform and Terraform Cloud."
+    },
+    {
+      "category": "Cloud",
+      "details": "Mastery of AWS ecosystem, knowledge of Cloudflare, Vercel, Netlify, Railway, Digital Ocean offerings."
+    },
+    {
+      "category": "AI",
+      "details": "At ease with Claude Code, Copilot, Cursor. Good knowledge of the ecosystem, models, MCP servers, prompt engineering, API integrations."
+    }
+  ],
+  "diplomas": [
+    {
+      "title": "Bachelor of Sociology & Anthropology",
+      "school": "Paris VII Diderot",
+      "year": "2015"
+    },
+    {
+      "title": "Certificate of Advanced English (CAE)",
+      "school": "Cambridge",
+      "year": "2012"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Proficient",
+      "align": "left"
+    },
+    {
+      "name": "French",
+      "level": "Native",
+      "align": "center"
+    },
+    {
+      "name": "Spanish",
+      "level": "Basic",
+      "align": "right"
+    }
+  ]
+}
