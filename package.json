@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "pug": "^2.0.4",
-    "puppeteer": "^2.1.1"
+    "puppeteer": "^24.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"

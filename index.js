@@ -22,7 +22,7 @@ const generatePdf = async () => {
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
   await page.setContent(renderedTemplate)
-  await page.waitFor(1000)
+  await new Promise(resolve => setTimeout(resolve, 1000))
 
   await page.pdf({
     path: path.resolve(fileRoot, resultsFile),
