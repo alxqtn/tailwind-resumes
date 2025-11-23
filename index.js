@@ -1,4 +1,5 @@
 const path = require('path')
+const fs = require('fs')
 const puppeteer = require('puppeteer')
 const pug = require('pug')
 
@@ -10,7 +11,12 @@ const contentsFile = lng ? `contents.${lng}.json` : "contents.json"
 const resultsFile = lng ? `result.${lng}.pdf` : "result.pdf"
 
 const contents = require(path.resolve(fileRoot, contentsFile))
-const renderedTemplate = pug.renderFile(templatePath, { ...contents, basedir: fileRoot })
+
+// Load assets from /data/assets.json if available
+const assetsPath = path.resolve(__dirname, "data", "assets.json")
+const assets = fs.existsSync(assetsPath) ? require(assetsPath) : {}
+
+const renderedTemplate = pug.renderFile(templatePath, { ...contents, assets, basedir: fileRoot })
 
 const generatePdf = async () => {
   const browser = await puppeteer.launch()

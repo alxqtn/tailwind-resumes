@@ -18,6 +18,16 @@ I mostly use this to design and generate résumés for me and my close ones (min
 3. Create a `contents.json` file in the same folder to input your data. Try `{"name": "Alix"}` as an example
 4. From the main project folder, run `yarn cli example` (or use npm). If dependencies are properly installed, this should output a `result.pdf` in the `examples` folder with "Hello Alix" and any change detected in the project while the command is running will overwrite the file.
 
+### Assets
+
+To use images in your templates, place them in `/data/assets/` (supports jpg, png, svg). Then run:
+
+```bash
+node encode-assets.js
+```
+
+This generates `assets.json` with base64-encoded assets. Reference them in your Pug template with `assets.filename` (without extension). For example, `background-image: url("#{assets.pattern}")` if you have a `pattern.jpg` file.
+
 ### Internationalisation
 
 For my own resume, which I needed in both French and English, I added a quick support for internationalisation.

@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "cli": "nodemon -e js,pug,json,css index.js"
+    "watch": "nodemon -e js,pug,json,css index.js",
+    "generate": "node index.js",
+    "assets": "node generate-assets.js"
   },
   "dependencies": {
     "pug": "^2.0.4",
