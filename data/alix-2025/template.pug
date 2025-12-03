@@ -8,16 +8,16 @@ html(style="font-size: 10px;")
         | #background { background-image: url("#{assets.splashes}"); background-size: 700px 700px; }
   body.leading-tight.font-sans.m-0.p-0
     #background.w-full.h-screen.px-10.py-10
-      .w-full.h-full.bg-white.px-16.py-8.border-black
+      .w-full.h-full.bg-white.px-16.py-10.border-black
         .flex.flex-col.items-center
-          h1.font-bold.text-5xl.uppercase.mb-1 #{info.firstName} #{info.lastName}
-          h2.font-mono.text-2xl.font-light.mb-0.mt-0 – #{info.title} –
+          h1.font-title.font-bold.text-5xl.uppercase.mb-1 #{info.firstName} #{info.lastName}
+          h2.font-mono.text-2xl.mb-0.mt-0 – #{info.title} –
           .mb-2.font-sans.tracking-tight _________
           p git: #{info.github} – #{info.email}
         .grid.grid-cols-8.gap-x-2.gap-y-3.mt-4
-          h3.col-span-2.font-mono.font-light.text-2xl= i18n.summary
+          h3.col-span-2.font-mono.text-2xl= i18n.summary
           .col-span-6.text-justify !{bio}
-          h3.col-span-2.font-mono.font-light.text-2xl= i18n.experience
+          h3.col-span-2.font-mono.text-2xl= i18n.experience
           .col-span-6.text-justify
             each exp in experiences
               .mb-4
@@ -25,28 +25,28 @@ html(style="font-size: 10px;")
                   p
                     b.text-lg= exp.title
                     br
-                    i= exp.company
+                    em.font-mono= exp.company
                   p
                     b.uppercase.text-xs.px-4.py-1.rounded-full.border.border-black #{exp.startDate} – #{exp.endDate || i18n.current}
                 ul.list-disc.list-outside.ml-6.text-justify
                   each ach in exp.achievements || []
                     li.mb-1 !{ach}
-          h3.col-span-2.font-mono.font-light.text-2xl= i18n.skills
+          h3.col-span-2.font-mono.text-2xl= i18n.skills
           .col-span-6
             each skill in skills
               p.text-justify
                 b= skill.category + ". "
                 span= skill.details
-          h3.col-span-2.font-mono.font-light.text-2xl= i18n.diplomas
+          h3.col-span-2.font-mono.text-2xl= i18n.diplomas
           .col-span-6
             each diploma in diplomas
               .mb-4.flex.justify-between.items-center
                 div
                   .font-bold.text-lg= diploma.title
-                  .italic= diploma.school
+                  .italic.font-mono= diploma.school
                 div
                   span.uppercase.font-bold.text-xs.px-4.py-1.rounded-full.border.border-black= diploma.year
-          h3.col-span-2.font-mono.font-light.text-2xl= i18n.languages
+          h3.col-span-2.font-mono.text-2xl= i18n.languages
           each language in languages
             .col-span-2
               .font-bold.text-lg(class=`text-${language.align}`)= language.name

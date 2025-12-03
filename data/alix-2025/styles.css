@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Spline+Sans:wght@300..700&display=swap&display=swap');
 
 #background {
   background-repeat: repeat;
 }
 
 .font-sans {
-  font-family: 'Fira Sans', Inter, Helvetica, Arial, sans-serif;
+  font-family: 'Spline Sans', Inter, Helvetica, Arial, sans-serif;
 }
 
 .font-mono {
-  font-family: 'Fira Code', Courier, monospace;
+  font-family: 'Google Sans Code', Courier, monospace;
+}
+
+.font-title {
+  font-family: 'Google Sans Flex', Inter, Helvetica, Arial, sans-serif;
 }
 
 p {

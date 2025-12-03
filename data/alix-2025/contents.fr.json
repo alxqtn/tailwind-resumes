@@ -57,7 +57,7 @@
   "skills": [
     {
       "category": "Langages",
-      "details": "Experte en JavaScript/TypeScript. Expériences pro avec Ruby, Elixir, Python. Bases solides en Go, Scala, Gleam, Rust, PHP."
+      "details": "Experte en JavaScript/TypeScript. Expériences pro avec Ruby, Elixir, Python. À l'aise avec Go, Scala. Bases solides en Gleam, Rust, PHP."
     },
     {
       "category": "Backend",
@@ -69,19 +69,19 @@
     },
     {
       "category": "Bases de données",
-      "details": "Maîtrise des bases SQL, particulièrement PostgreSQL. À l'aise Redis, MongoDB."
+      "details": "Maîtrise des bases SQL, particulièrement PostgreSQL. À l'aise avec Redis, MongoDB."
     },
     {
       "category": "DevOps",
-      "details": "Maîtrise de Docker, Kubernetes, et des outils CI/CD comme Github Actions ou Circle CI. Expériences d'infrastructure déclarative avec Terraform et Terraform Cloud."
+      "details": "Maîtrise de Docker, Kubernetes, et des outils CI/CD Github Actions et Circle CI. À l'aise avec Terraform et Terraform Cloud."
     },
     {
       "category": "Cloud",
-      "details": "Maîtrise de l'écosystème AWS, connaissance des offres de Cloudflare, Vercel, Netlify, Railway, Digital Ocean."
+      "details": "Maîtrise de l'écosystème AWS, explorations sur Cloudflare, Vercel, Netlify, Railway, Digital Ocean."
     },
     {
       "category": "IA",
-      "details": "À l'aise avec Claude Code, Copilot, Cursor. Bonne connaissance de l'écosystème, modèles, serveurs MCP, prompt engineering, intégrations API."
+      "details": "Maîtrise de Claude Code, Copilot, Cursor. Bonne connaissance de l'écosystème LLMs: modèles, intégrations API, serveurs MCP, prompt & context engineering."
     }
   ],
   "diplomas": [
